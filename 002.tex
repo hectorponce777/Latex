@@ -1,0 +1,46 @@
+%Hola señores, espero que esten bien, con esto damos por terminado la clase de latex
+%espero que le entiendan.
+
+
+%***********************PREAMBULO**************************
+% TIPO DE DOCUMENTO.
+% Pueden ser articulo, articulo cientifico, libro, carta o presentación
+% Definimos el tamaño de letra 10,11 ó 12
+% Definimos el tamaño de papel letterpaper(tamaño carta) legalpaper (tamaño oficio)
+\documentclass[10pt,letterpaper]{article}
+
+% TIPO DE CODIFICACION.
+% En esta parte definimos la codificacion de caracteres de nuestro documento.
+% como estamos en una region que usa el idioma español, utilizaremos UTF8, a veces
+% por problema de 
+\usepackage[utf8]{inputenc}
+
+% MARGENES DEL DOCUMENTO
+% Utilizando el paquete geometry, definimos los margenes de los 4 lados
+% del documento, siempre se debe de manejar en centimetros.
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+% DERECHOS RESERVADOS
+% En esta parte del documento, ponemos el nombre del o los autores del Documento de LATEX
+% asi como también el nombre del documento.
+%Autor del documento.
+\author{Héctor Jesús Ponce Castillo.}
+%Titulo del Documento.
+\title{Manual de latex}
+
+%***********************DOCUMENTO EN LATEX**************************
+% Inicia el Documento de Latex
+% Como si fuera HTML, acá abrimos y cerramos la etiqueta document, que nos permitirá
+% escribir y diseñar el documento.
+\begin{document}
+		Supercalifragilistico\\  %con las barras \\ ponemos un salto de linea
+		Espiralidoso \LaTeX{}  % \LaTeX{} es una funcion propia del lenguaje
+		\\ \\
+Vamos a utilizar un texto demo, que se llama lorem ipsum dolor sit amet.\\ \\
+Ahora \\ \\
+%AHORA TENEMOS QUE CAPTURAR TODO ESTE TEXTO
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tellus nisl, posuere a augue quis, sollicitudin mattis lacus. Fusce sapien tellus, placerat a nulla vel, placerat mollis felis. Aliquam sollicitudin sollicitudin neque at fringilla. Etiam vel odio laoreet, convallis turpis id, suscipit augue. Duis non rutrum orci. Duis vitae turpis eros. In laoreet, tellus accumsan sollicitudin suscipit, nunc dui scelerisque leo, at commodo nunc erat sit amet ante. Donec nec urna rutrum metus porttitor porttitor. Nullam vitae cursus nibh, nec imperdiet magna. Nulla id sapien id lacus accumsan ultrices eu in dolor. Pellentesque ac condimentum magna, eu venenatis est. Nam vehicula elit tortor, nec aliquet erat vestibulum vel.
+
+%Como se dieron cuenta, el texto esta automaticamente justificado. Ya no tenemos que preocuparnos del formato.
+
+\end{document}

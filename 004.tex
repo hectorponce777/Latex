@@ -1,0 +1,28 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Héctor Jesús Ponce Castillo}
+\title{Indices, numeros de pagina,titulo, subtitulo}
+\begin{document}
+%Ahora algo que tenemos que aprender a realizar es dividir el documento el secciones y %subsecciones. Y eso se hace de la siguiente manera.
+
+\section{Hola}
+\subsection{Mundo}
+\subsubsection{IP'S}
+
+%Este documento esta quedando muy, pero muy bien,, por cualquier cosa, pues se necesita un salto de pagina o insertar una nueva pagina \newpage
+\newpage
+\include{loremipsum}
+
+%para quitar el numero de pagina de una sola hoja, se teclea \thispagestyle{empty}
+%
+esta hoja no tiene numero de página
+\thispagestyle{empty}
+\newpage
+Pero esta si
+\end{document}

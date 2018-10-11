@@ -1,0 +1,19 @@
+%Hola señores, espero que esten bien, con esto damos por terminado la clase de latex
+%espero que le entiendan.
+
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Héctor Jesús Ponce Castillo.}
+\title{Manual de latex}
+\begin{document}
+Posiblemente ahora nos preguntemos si todo lo tenemos que capturar para que pueda estar en el documento, lo que podemos hacer ahora es.\\ \\
+
+Incluir un documento dentro de latex.\\ \\
+
+La forma de incluir un documento es con input\\ \\
+% quitale el signo de porcentaje antes de input, para poder ver en ejecucion el archivo.
+ \input{loremipsum.tex}
+De esta manera podemos generar por separado los archivos de \LaTeX{}, y juntar los archivos para poder presentar uno solo.
+\end{document}
