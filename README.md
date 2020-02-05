@@ -1,5 +1,5 @@
 # Latex
-Repositorio para el Taller de Latex, de la Universidad Tecnológica de la Selva. www.utselva.edu.mx
+Repositorio para el Taller de Latex.
 
 Eres libre de realizar las modificaciones que creas necesarias, descargar y usar
 
